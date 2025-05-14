@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+  }
+
+  h1{
+    font-family: "Londrina Shadow", sans-serif;
+    font-size: 60px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+ header > p{
+    font-family: "Tinos", serif;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+ h2{
+    font-family: "Londrina Shadow", sans-serif;
+
+ }
+  
+  header {
+    background-image: linear-gradient(to right, #182B38, #5D77A3, #EDDD53);
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+  }
+
+  section > p{
+    text-align: left;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    gap: 1em;
+  }
+  
+  .animal {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1em;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .animal img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-image: linear-gradient(to right, #182B38, #5D77A3, #EDDD53);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-image: linear-gradient(to right, #182B38, #5D77A3, #EDDD53);
+    color: white;
+    margin-top: 2em;
+  }
